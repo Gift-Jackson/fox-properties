@@ -27,10 +27,10 @@
 <body>
     <div class="transition active">
         <div class="transition-content">
-          <div class="spinner"></div>
-          <h3>Loading...</h3>
+            <div class="spinner"></div>
+            <h3>Loading...</h3>
         </div>
-      </div>
+    </div>
     <header class="alt-header">
         <h3 class="brand">
             <i class="fa-solid fa-house"></i> &nbsp;Fox Properties
@@ -69,6 +69,7 @@
     </div>
 
     <div class="search-filter">
+        <p>Last updated: <span class="lastweekDate"></span></p>
         <div class="searchBar">
             <span class="material-symbols-rounded">
                 search
@@ -101,39 +102,40 @@
                 <div class="flex">
                     <span class="material-symbols-rounded">
                         home_pin
-                        </span>
+                    </span>
                     <p class="address">Lorem, ipsum dolor.</p>
                 </div>
                 <div class="flex">
                     <span class="material-symbols-rounded">
                         home
-                        </span>
-                        <p><span class="country">Nigeria</span>, <span class="state">Akwa Ibom</span>, <span class="city">Uyo</span></p>
+                    </span>
+                    <p><span class="country">Nigeria</span>, <span class="state">Akwa Ibom</span>, <span
+                            class="city">Uyo</span></p>
                 </div>
                 <div class="flex">
                     <span class="material-symbols-rounded">
                         sell
-                        </span>
+                    </span>
                     <p class="price">$100,000.00</p>
                 </div>
                 <div class="amenities">
                     <div class="flex">
                         <span class="material-symbols-rounded">
                             bed
-                            </span>
+                        </span>
                         <p>Bed <span class="bed">3</span></p>
                     </div>
                     <div class="flex">
                         <span class="material-symbols-rounded">
                             bathtub
-                            </span>
+                        </span>
                         <p>Bath <span class="bath">3</span></p>
                     </div>
                 </div>
             </div>
         </div>
-        
-        
+
+
     </div>
 
 
@@ -166,12 +168,12 @@
                         </form>
                     </div>
                 </div>
-                
+
             </section>
             <p style="text-align: center; color: var(--white);">
                 &copy; <span id="currentYear" style="color: var(--white);"></span> Fox Property Management LTD. All
                 rights reserved.
-              </p>
+            </p>
         </main>
     </footer>
 
@@ -183,6 +185,27 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
+    </script>
+    <script>
+        // Get the current date
+        let currentDate = new Date();
+
+        // Subtract 5 days
+        currentDate.setDate(currentDate.getDate() - 5);
+
+        // Get the year, month, day, hour, minute, and second
+        let year = currentDate.getFullYear();
+        let month = String(currentDate.getMonth() + 1).padStart(2, '0');
+        let day = String(currentDate.getDate()).padStart(2, '0');
+        let hours = String(currentDate.getHours()).padStart(2, '0');
+        let minutes = String(currentDate.getMinutes()).padStart(2, '0');
+        let seconds = String(currentDate.getSeconds()).padStart(2, '0');
+
+        // Formatted date and time string
+        let formattedDateTime = `${year}-${month}-${day} ${hours}:${minutes}:${seconds}`;
+
+        console.log(formattedDateTime);
+document.querySelector('.lastweekDate').innerHTML = `${formattedDateTime}`;
     </script>
 </body>
 

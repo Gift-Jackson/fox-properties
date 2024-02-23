@@ -19,6 +19,10 @@
     flex-direction: column;
 }
 
+.search-filter p{
+    margin-bottom: .5rem;
+}
+
 .searchBar{
     display: flex;
     justify-content: space-between;
@@ -77,6 +81,10 @@
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1rem;
     width: 90%;
+}
+.lastweekDate{
+    color: var(--primary-color);
+    font-weight: bold;
 }
 
 .property{
