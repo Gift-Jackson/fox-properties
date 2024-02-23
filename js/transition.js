@@ -1,6 +1,6 @@
 window.onload = () => {
     const transition_el = document.querySelector(".transition");
-    const anchors = document.querySelectorAll("nav ul a")
+    const anchors = document.querySelectorAll("a")
   
     setTimeout(() => {
       transition_el.classList.remove("active")
