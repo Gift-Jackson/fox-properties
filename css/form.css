@@ -1,0 +1,182 @@
+:root{
+    --primary-color: #ff4500;
+    --secondary-color: #f5f5f5;
+    --bg-color:#f9f9f9;
+    --white:#fefefe;
+    --dark:#303030;
+    --text-color:#4a4a4a;
+    --border:#eee;
+    --border-focus:#bbb;
+}
+
+.application-form, .contact-form{
+    width: 100%;
+}
+
+.application-form .title,
+.contact-form .title{
+    text-align: center;
+}
+
+.form-container{
+    background-color: var(--white);
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    padding: 2rem;
+    border-radius: .5rem;
+    width: 500px;
+    margin: auto;
+}
+
+.input-control{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    gap: 1;
+}
+.input-control input,
+.input-control select,
+.input-control textarea{
+    padding: .7rem;
+    border: 1px solid transparent;
+    background-color: var(--secondary-color);
+    border-radius: .5rem;
+    margin-top: .5rem;
+}
+
+.input-control input:focus,
+.input-control select:focus,
+.input-control textarea:focus{
+    border: 1px solid var(--primary-color);
+    outline: 3px solid var(--primary-color);
+    outline-offset: 1px;
+    background-color: transparent;
+}
+
+.input-control label{
+    padding-left: .5rem;
+}
+
+.signatureCanvas {
+    border: 1px solid #eee;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+}
+
+.form-container form button {
+    padding: 1rem;
+    width: 100%;
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 0;
+    border-radius: .5rem;
+}
+
+.form-container form button:hover {
+    background-color: var(--dark);
+}
+
+.container{
+    width: 400px;
+    margin: 3rem auto;
+    text-align: center;
+    background-color: var(--white);
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    padding: 2rem 1rem;
+}
+.container h1{
+    margin-bottom: .5rem;
+}
+
+.container button{
+    margin:2rem auto 0;
+    padding: 1rem;
+    border-radius: 50px;
+}
+.container .tick{
+    color: var(--primary-color);
+    font-size: 3rem;
+}
+
+/* Overlay */
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+    display: grid;
+    place-items: center;
+}
+
+.overlay .modal {
+    background-color: #fefefe;
+    width: 400px;
+    padding: 2rem 1rem;
+    position: relative;
+    transform: scale(0);
+    animation: modal .2s linear 1s forwards;
+}
+
+@keyframes modal {
+    100% {
+        transform: scale(1);
+    }
+}
+
+.overlay .modal h1 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.overlay .modal .btns {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overlay .modal .btns button {
+    padding: .7rem 1rem;
+    cursor: pointer;
+}
+
+.overlay .modal .btns .close-btn {
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+}
+
+.overlay .modal .btns .open-btn {
+    border: 0;
+    background-color: var(--primary-color);
+    color: #fefefe;
+}
+
+.overlay .modal .btns .open-btn:hover {
+    background-color: var(--dark);
+}
+
+.overlay .modal .close {
+    position: absolute;
+    top: .7rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.overlay .modal .close:hover {
+    color: var(--main-color);
+}
+
+
+@media (max-width:800px) {
+    .form-container{
+        width: 100%;
+    }
+}
+@media (max-width:500px) {
+    .container{
+        width: 90%;
+    }
+}

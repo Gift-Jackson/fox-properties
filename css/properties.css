@@ -1,0 +1,254 @@
+:root{
+    --primary-color: #ff4500;
+    --secondary-color: #f1f1f1;
+    --bg-color:#f9f9f9;
+    --white:#fefefe;
+    --dark:#303030;
+    --text-color:#4a4a4a;
+    --border:#eee;
+    --border-focus:#bbb;
+}
+
+.search-filter{
+    width: 50%;
+    margin: 2rem auto;
+}
+
+.search-filter{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 50px;
+    padding: 0 1rem;
+}
+.searchBar input{
+    width: 100%;
+    padding: 1rem;
+    border: 0;
+    background-color: transparent;
+
+}
+
+.searchBar:focus-within{
+    border-color: var(--primary-color);
+    outline: 3px solid var(--primary-color);
+    outline-offset: 2px;
+}
+
+.searchBar span{
+    color: var(--text-color);
+    opacity: .7;
+}
+
+.filter{
+    display: flex;
+    gap: 1rem;
+    margin-top: .5rem;
+}
+
+.filter input{
+    display: none;
+}
+.filter label{
+    border: 1px solid #ddd;
+    padding: .3rem 1rem;
+    border-radius: 50px;
+    font-size: 13px;
+}
+
+.filter input:checked + label{
+    background-color: var(--primary-color);
+    border-color: transparent;
+}
+
+.filter input:checked + label span{
+    color: var(--white);
+}
+
+.propertyContainer{
+    margin: 2rem auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1rem;
+    width: 90%;
+}
+
+.property{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    border-radius: .5rem;
+    overflow: hidden;
+    position: relative;
+    transition: .2s;
+}
+
+.property:active{
+    transform: scale(.9);
+    border: 1px solid var(--primary-color);
+}
+.status{
+    background-color: var(--primary-color);
+    color: var(--white);
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    padding: .5rem 1rem;
+    border-radius: 50px;
+}
+
+.property img{
+    width: 100%;
+    object-fit: contain;
+}
+
+.property-details{
+    padding: .5rem;
+    background-color: var(--white);
+}
+
+.flex > span:nth-child(1){
+    color: var(--primary-color);
+}
+.unit{
+    color: var(--primary-color);
+    margin-bottom: .5rem;
+}
+.flex{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: .5rem;
+}
+.amenities{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+    border-top: 1px solid #ddd;
+    padding-top: .5rem;
+    gap: 1rem;
+}
+.amenities .flex{
+    width: calc(100% / 2);
+}
+
+/* view property */
+.cols{
+    display: flex;
+    gap: 1rem;
+}
+.cols .col{
+    width: calc(100% / 2);
+}
+.col img{
+    width: 100%;
+}
+
+.col-1{
+    text-align: center;
+}
+.col-1 button{
+    margin-top: .5rem;
+    padding: .5rem 1rem;
+}
+
+.stroke-btn{
+    background-color: transparent;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+}
+.stroke-btn:hover{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+.houseDetails tr td{
+    line-height: 40px;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem 0;
+}
+.more-info div{
+    border: 1px solid var(--border);
+    padding: 1rem;
+    width: calc(100% / 4);
+}
+.more-info h4{
+    margin-bottom: 1rem;
+}
+.more-info p{
+    font-size: 13px;
+}
+
+.applyBtn {
+    background-color: var(--primary-color);
+    border: 1px solid transparent;
+    color: var(--white);
+}
+
+.btns button:hover {
+    background-color: var(--dark);
+    color: var(--white);
+    border-color: transparent;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btns button {
+    width: calc(100% / 3);
+    padding: .8rem;
+    font-size: 1rem;
+}
+
+.backBtn,.feeBtn {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+@media (max-width:800px){
+    .cols{
+        flex-direction: column;
+    }
+    .cols .col{
+        width: 100%;
+    }
+    .btns {
+        flex-direction: column-reverse;
+        gap: .5rem;
+    }
+
+    .btns button {
+        width: 100%;
+    }
+    .wrapper{
+        grid-template-columns: 1fr;
+    }
+    .more-info{
+        flex-direction: column;
+        gap: 1rem;
+        align-items: unset;
+    }
+    .more-info div{
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .search-filter{
+        width: 90%;
+    }
+}
