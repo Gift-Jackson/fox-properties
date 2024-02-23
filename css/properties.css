@@ -20,7 +20,8 @@
 }
 
 .search-filter p{
-    margin-bottom: .5rem;
+     margin-bottom: .1rem;
+    font-size: 13px;
 }
 
 .searchBar{
