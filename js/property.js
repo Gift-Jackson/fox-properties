@@ -378,6 +378,163 @@ const properties = [
         "image_links": "https://avatars.mds.yandex.net/i?id=d07210f5d8652bd29bb3244aadd3dd1a8edbf214-11481522-images-thumbs&n=13"
     },
     {
+        "id": 60,
+        "address": "1341 Mount Clinton Pike",
+        "city": "Harrisonburg",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/de0f31b15e6e6c509a345a89f2304b73-p_e.jpg",
+        "bed": 5,
+        "bath": 4,
+        "price": 499900,
+        "unit": "Unit A"
+    },
+    {
+        "id": 61,
+        "address": "601 Arizona Dr",
+        "city": "Richmond",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/3d6ae36c8a60acd88f980f6f0cf62a01-p_e.jpg",
+        "bed": 3,
+        "bath": 1,
+        "price": 230000,
+        "unit": "Unit B"
+    },
+    {
+        "id": 62,
+        "address": "1902 Burma Rd",
+        "city": "Salem",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/cd1456e6647117ef85b4e67271c3bbc7-p_e.jpg",
+        "bed": 2,
+        "bath": 1,
+        "price": 234950,
+        "unit": "Unit C"
+    },
+    {
+        "id": 63,
+        "address": "127 Falcon Ln",
+        "city": "Weyers Cave",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/cef6361b2913b43f4e9f80fec9b52db8-p_e.jpg",
+        "bed": 4,
+        "bath": 3,
+        "price": 344900,
+        "unit": "Unit D"
+    },
+    {
+        "id": 64,
+        "address": "43 Olive St",
+        "city": "Staunton",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/321dab0e85d1c9df84aabe7088f1870d-p_e.jpg",
+        "bed": 3,
+        "bath": 1,
+        "price": 170000,
+        "unit": "Unit E"
+    },
+    {
+        "id": 65,
+        "address": "611 Belair Rd",
+        "city": "Meadows Of Dan",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/d1be6e2742d2c423491dc6600699fdf8-p_e.jpg",
+        "bed": 2,
+        "bath": 2,
+        "price": 179000,
+        "unit": "Unit F"
+    },
+    {
+        "id": 66,
+        "address": "1308 Swallow Dr",
+        "city": "Virginia Beach",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/e5f3561afda3c551359e1b22bdb19a60-p_e.jpg",
+        "bed": 4,
+        "bath": 2,
+        "price": 288000,
+        "unit": "Unit G"
+    },
+    {
+        "id": 67,
+        "address": "15434 Bull Church Rd",
+        "city": "Woodford",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/7205d97c5c0c2af1ac15c1f7437850e3-p_e.jpg",
+        "bed": 3,
+        "bath": 1,
+        "price": 299800,
+        "unit": "Unit H"
+    },
+    {
+        "id": 68,
+        "address": "Robertson St",
+        "city": "South Hill",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/782a1f26e11ee49fc5d995ac6359408c-p_e.jpg",
+        "bed": 1,
+        "bath": 1,
+        "price": 14900,
+        "unit": "Unit I"
+    },
+    {
+        "id": 69,
+        "address": "1113 Stoney Brook Lndg",
+        "city": "Chesapeake",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/804b25ec8b647ac249b334dccafe63af-p_e.jpg",
+        "bed": 3,
+        "bath": 2,
+        "price": 325000,
+        "unit": "Unit J"
+    },
+    {
+        "id": 70,
+        "address": "Asheboro Plan, Rocketts Ridge",
+        "city": "Sandy Hook",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/ca2761fa204178e0efd65d84f0d3c9c7-p_e.jpg",
+        "bed": 3,
+        "bath": 3,
+        "price": 614990,
+        "unit": "# CJDU3S"
+    },
+    {
+        "id": 71,
+        "address": "883 Walkers Chapel Ln",
+        "city": "Mount Jackson",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/803ab6516f8c9b8d13486a1084080838-p_e.jpg",
+        "bed": 3,
+        "bath": 1,
+        "price": 175000,
+        "unit": "Unit L"
+    },
+    {
+        "id": 72,
+        "address": "182 Sandy Rd",
+        "city": "Gretna",
+        "state": "Virginia",
+        "country": "USA",
+        "image_links": "https://photos.zillowstatic.com/fp/f165a34afb0fb7d6f24058a4948de6b6-p_e.jpg",
+        "bed": 1,
+        "bath": 2,
+        "price": 169000,
+        "unit": "Unit M"
+    }
+    ,
+    {
         "id": 71814795,
         "address": "250 Park Ave",
         "unit": "Unit 509",
@@ -548,7 +705,103 @@ const properties = [
             "https://photos.zillowstatic.com/fp/6ae0bfc864d0a0dfe8383bc9c65614b4-p_e.jpg"
         ],
         "unit": "Unit E"
-    }
+    },
+    {
+        "id": 38,
+        "address": "1914 Boston Ave",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Richmond",
+        "unit": "Unit 1",
+        "bed": 3,
+        "bath": 2,
+        "price": 299900,
+        "image_links": "https://photos.zillowstatic.com/fp/d2ba2eeb8fbe27c8f066cdf4ad51b404-p_e.jpg"
+      },
+      {
+        "id": 39,
+        "address": "182 Shore Dr",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Boydton",
+        "unit": "Unit 2",
+        "bed": 3,
+        "bath": 2,
+        "price": 511000,
+        "image_links": "https://photos.zillowstatic.com/fp/5ec592c9a4a93fd7ff0f2c3baa8793ce-p_e.jpg"
+      },
+      {
+        "id": 40,
+        "address": "LOT 11 Jennifer Ln",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Cape Charles",
+        "unit": "Unit 3",
+        "bed": null,
+        "bath": null,
+        "price": 25000,
+        "image_links": "https://photos.zillowstatic.com/fp/05013bd41831c112304948d8bde6e442-p_e.jpg"
+      },
+      {
+        "id": 41,
+        "address": "23 Shore Dr",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Boydton",
+        "unit": "Unit 4",
+        "bed": null,
+        "bath": null,
+        "price": 220000,
+        "image_links": "https://photos.zillowstatic.com/fp/b7d61ba7ff21d974fa40904e2018888d-p_e.jpg"
+      },
+      {
+        "id": 42,
+        "address": "1109 Springhill Rd",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Staunton",
+        "unit": "Unit 5",
+        "bed": 2,
+        "bath": 2,
+        "price": 250000,
+        "image_links": "https://photos.zillowstatic.com/fp/8dc562962c6a1bba66f7ce22d3c1f7f7-p_e.jpg"
+      },
+      {
+        "id": 43,
+        "address": "23 Ireland St",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Hampton",
+        "unit": "Unit 6",
+        "bed": 4,
+        "bath": 3,
+        "price": 429000,
+        "image_links": "https://photos.zillowstatic.com/fp/9dbb920a434e32fd967643bf7d86c56c-p_e.jpg"
+      },
+      {
+        "id": 44,
+        "address": "238 Misty Point Ln",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Newport News",
+        "unit": "Unit 7",
+        "bed": 2,
+        "bath": 2,
+        "price": 218000,
+        "image_links": "https://photos.zillowstatic.com/fp/6ddac49a71eeea02b9be6fe1a8218dc8-p_e.jpg"
+      },
+      {
+        "id": 45,
+        "address": "305 Bridgewater Dr",
+        "country": "USA",
+        "state": "Virginia",
+        "city": "Newport News",
+        "unit": "Unit 8",
+        "bed": 3,
+        "bath": 3,
+        "price": 225000,
+        "image_links": "https://photos.zillowstatic.com/fp/cc249566f4a9242a2b89c42deca3703a-p_e.jpg"
+      }
 ];
 
 const houses = [...new Set(properties.map((item) => { return item }))];
@@ -567,6 +820,7 @@ let searchbar = document.getElementById("search").addEventListener("keyup", (e) 
 const allBtn = document.querySelector(".all")
 const texasBtn = document.querySelector(".texas")
 const minnesotaBtn = document.querySelector(".minnesota")
+const virginiaBtn = document.querySelector(".virginia")
 
 allBtn.addEventListener('click', () => {
     let searchBar = document.getElementById("search");
@@ -585,6 +839,13 @@ minnesotaBtn.addEventListener('click', () => {
     let searchBar = document.getElementById("search");
     searchBar.value = 'Minnesota';
     filterData = houses.filter(item => item.state.includes('Minnesota'));
+    displayItem(filterData);
+});
+
+virginiaBtn.addEventListener('click', () => {
+    let searchBar = document.getElementById("search");
+    searchBar.value = 'Virginia';
+    filterData = houses.filter(item => item.state.includes('Virginia'));
     displayItem(filterData);
 });
 
