@@ -180,6 +180,9 @@
         width: 90%;
     }
     .overlay{
+        width: 100%;
+    }
+    .overlay .modal{
         width: 90%;
     }
 }
