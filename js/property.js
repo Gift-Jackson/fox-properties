@@ -603,7 +603,7 @@ const displayItem = (items) => {
 
             return (
                 `
-                <div class="property" data-aos="zoom-out" onclick="view(${item.id})">
+                <div class="property" data-aos="zoom-in" onclick="view(${item.id})">
             <img src="${image_links}" alt="${unit}">
             <div class="property-details">
                 <h3 class="unit">${unit}</h3>
