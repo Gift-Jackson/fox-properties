@@ -131,10 +131,7 @@ const properties = [
         "city": "Minneapolis",
         "bed": 3,
         "bath": 2,
-        "price": {
-            "min": 120000,
-            "max": 140000
-        },
+        "price":120000,
         "image_links": "https://avatars.mds.yandex.net/i?id=781e3bbd9ff639c1c53a3e863b7183b59d086af9-10752576-images-thumbs&n=13"
     },
     {
@@ -185,6 +182,302 @@ const properties = [
         "price": 123000,
         "image_links": "https://avatars.mds.yandex.net/i?id=ce25da107c1d6bec8c163704ed8bb23513f9ec05-8474442-images-thumbs&n=13"
     },
+    {
+        "id": 1,
+        "address": "82225 F St",
+        "unit": "Unit 1A",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 184900,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/contemporary-southside-duplex-axis-productions-img~5611d1cf0e48b744_0198-1-771a267-w360-h360-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 2,
+        "address": "34647 Camphor Dr",
+        "unit": "Unit 2B",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 159900,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/pearl-street-duplex-residence-bcdc-b-costello-design-and-consulting-llc-img~b8d18808013e6a72_0955-1-150d37d-w360-h360-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 3,
+        "address": "6626 83rd Ave N",
+        "unit": "Unit 3C",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 3,
+        "price": 394900,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/golden-duplex-f9-productions-inc-img~57c18dc006847423_6412-1-c19cb5c-w360-h360-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 4,
+        "address": "93104 5th St N",
+        "unit": "Unit 4D",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 39999,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/stapleton-eastbridge-townhome-art-of-home-team-img~d831eb6f0db9eafc_2819-1-50ad858-w360-h360-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 5,
+        "address": "Marisol Plan, Townes at Bayou Heights",
+        "unit": "# 3VCDU5",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 3,
+        "bath": 3,
+        "price": 496990,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/somerville-ma-multi-family-renovation-sl-haus-group-llc-img~5cb191df0f05ecdf_3878-1-dea2da9-w360-h360-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 6,
+        "address": "Palermo Plan, Townes at Bayou Heights",
+        "unit": "# QHJ14C",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 4,
+        "bath": 3,
+        "price": 480990,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/06515dba0570cbdb_1039-w360-h360-b0-p0--.jpg"
+        ]
+      },
+      {
+        "id": 7,
+        "address": "Capri Plan, Townes at Bayou Heights",
+        "unit": "# IS7TCN",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 3,
+        "bath": 3,
+        "price": 456990,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/macpherson-street-bronte-bka-architecture-pty-ltd-img~60b109e005a4a196_9743-1-d26aa55-w450-h450-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 8,
+        "address": "Verona Plan, Townes at Bayou Heights",
+        "unit": "# 8HSX1I",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 4,
+        "bath": 3,
+        "price": 514990,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/haeuser/gartenansicht-sieckmann-walther-architekten-img~3a41dc040ae1b410_9790-1-2cb98c3-w450-h450-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 9,
+        "address": "6563 95th Pl N",
+        "unit": "Unit 9J",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 4,
+        "bath": 3,
+        "price": 488825,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/seeing-double-dual-occupancy-studio56-building-design-img~65b17f650bc82516_0022-1-2670046-w450-h450-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 10,
+        "address": "6568 95th Pl N",
+        "unit": "Unit 10K",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 4,
+        "bath": 3,
+        "price": 523990,
+        "image_links": [
+          "https://st.hzcdn.com/fimgs/pictures/exteriors/baulkham-hills-buildrite-img~23c110120f0e8fca_3469-1-1f09435-w360-h360-b0-p0.jpg"
+        ]
+      },
+      {
+        "id": 11,
+        "address": "6572 95th Pl N",
+        "unit": "Unit 11L",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 3,
+        "bath": 3,
+        "price": 465515,
+        "image_links": [
+          "https://ssl.cdn-redfin.com/photo/118/islphoto/375/genIslnoResize.U8233375_0.jpg"
+        ]
+      },
+    
+        {
+            "id": 2055238536,
+            "address": "5689 67th Ave N",
+            "unit": "# 5689",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 1,
+            "bath": 1,
+            "price": 139750,
+            "image_links": [
+                "https://ssl.cdn-redfin.com/photo/118/islphoto/107/genIslnoResize.U8233107_1.jpg"
+            ]
+        },
+        {
+            "id": 340015559,
+            "address": "3632 91st Ave N",
+            "unit": "# 6",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 2,
+            "bath": 2,
+            "price": 349900,
+            "image_links": [
+                "https://ap.rdcpix.com/d5c72e3b203efb3f6bd79f455e6cd9c9l-m4233250299od-w480_h360_x2.webp`"
+            ]
+        },
+        {
+            "id": 47122843,
+            "address": "9790 66th St N LOT 340",
+            "unit": "Lot 340",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 2,
+            "bath": 2,
+            "price": 129900,
+            "image_links": [
+                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8233509-1-6e1584b09ba4dda50b8ad245703adc47-m.jpg"
+            ]
+        },
+        {
+            "id": 339970891,
+            "address": "6207 64th Way N",
+            "unit": "Unit A",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 3,
+            "bath": 4,
+            "price": 725000,
+            "image_links": [
+                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6182772-1-f2dfc4db19ef3304ff021fc036b5cd3e-m.jpg"
+            ]
+        },
+        {
+            "id": 47148923,
+            "address": "9605 44th St N",
+            "unit": "Unit A",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 2,
+            "bath": 2,
+            "price": 315000,
+            "image_links": [
+                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfrt3500124-1-572103edbd1e5bb8070ad7eaf5868f62-m.jpg"
+            ]
+        },
+        {
+            "id": 2054169172,
+            "address": "66019 London Rd N",
+            "unit": "Unit A",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 2,
+            "bath": 2,
+            "price": 169999,
+            "image_links": [
+                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfrw7860164-1-2e0a83fc613b5eb24c952c5622c94c30-m.jpg"
+            ]
+        },
+        {
+            "id": 2052854932,
+            "address": "8482 60th St N",
+            "unit": "# 804",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 2,
+            "bath": 2,
+            "price": 220000,
+            "image_links": [
+                "https://i.pinimg.com/236x/7d/ab/e6/7dabe6aab5a181f641e7fe87eb3ada9b.jpg"
+            ]
+        },
+        {
+            "id": 2098811041,
+            "address": "66178 London Rd N",
+            "unit": "Unit A",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 2,
+            "bath": 2,
+            "price": 56999,
+            "image_links": [
+                "https://photos.zillowstatic.com/fp/83836130a8b1fa6b162ecd5bbfb5a343-p_e.jpg"
+            ]
+        },
+        {
+            "id": 47205907,
+            "address": "6226 76th Ave N",
+            "unit": "Unit A",
+            "country": "USA",
+            "state": "Florida",
+            "city": "Pinellas Park",
+            "bed": 3,
+            "bath": 3,
+            "price": 450000,
+            "image_links": [
+                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6174127-1-39acb2dc61c3fc04aa2c29a9f3894b95-m.jpg"
+            ]
+        },
+        {
+            "id": 2092297265,
+            "address": "3390 Gandy Blvd N",
+            "unit": "Lot 153",
+            "country": "USA",
+            "state": "Florida",
+            "city": "St Petersburg",
+            "bed": 2,
+            "bath": 2,
+            "price": 61000,
+            "image_links": [
+                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8224804-1-8954e4d24a1a4aa48ecd13db7079335f-m.jpg"
+            ]
+        }
+    ,
     {
         "id": 15,
         "address": "963 Lakeview Loop",
@@ -821,6 +1114,7 @@ const allBtn = document.querySelector(".all")
 const texasBtn = document.querySelector(".texas")
 const minnesotaBtn = document.querySelector(".minnesota")
 const virginiaBtn = document.querySelector(".virginia")
+const pinellasBtn = document.querySelector(".pinellas")
 
 allBtn.addEventListener('click', () => {
     let searchBar = document.getElementById("search");
@@ -846,6 +1140,13 @@ virginiaBtn.addEventListener('click', () => {
     let searchBar = document.getElementById("search");
     searchBar.value = 'Virginia';
     filterData = houses.filter(item => item.state.includes('Virginia'));
+    displayItem(filterData);
+});
+
+pinellasBtn.addEventListener('click', () => {
+    let searchBar = document.getElementById("search");
+    searchBar.value = 'Florida';
+    filterData = houses.filter(item => item.city.includes('Pinellas'));
     displayItem(filterData);
 });
 

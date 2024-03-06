@@ -53,7 +53,8 @@
 
 .filter{
     display: flex;
-    gap: 1rem;
+    flex-wrap: wrap;
+    gap: .5rem;
     margin-top: .5rem;
 }
 
@@ -64,7 +65,7 @@
     border: 1px solid #ddd;
     padding: .3rem 1rem;
     border-radius: 50px;
-    font-size: 13px;
+    font-size: 12px;
 }
 
 .filter input:checked + label{
@@ -93,6 +94,7 @@
     flex-direction: column;
     justify-content: space-between;
     box-shadow: 0 5px 10px rgba(0,0,0,.05);
+    background-color: var(--white);
     border-radius: .5rem;
     overflow: hidden;
     position: relative;
@@ -115,7 +117,8 @@
 
 .property img{
     width: 100%;
-    object-fit: contain;
+    height: 200px;
+    object-fit: cover;
 }
 
 .property-details{
@@ -254,6 +257,10 @@
     }
     .more-info div{
         width: 100%;
+    }
+    .property img{
+        height: auto;
+        object-fit: unset;
     }
 }
 @media (max-width:500px){
