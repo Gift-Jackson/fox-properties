@@ -206,7 +206,7 @@ const properties = [
         "city": "Pinellas Park",
         "bed": 2,
         "bath": 2,
-        "price": 159900,
+        "price": 259900,
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/pearl-street-duplex-residence-bcdc-b-costello-design-and-consulting-llc-img~b8d18808013e6a72_0955-1-150d37d-w360-h360-b0-p0.jpg"
         ]
@@ -220,7 +220,7 @@ const properties = [
         "city": "Pinellas Park",
         "bed": 2,
         "bath": 3,
-        "price": 394900,
+        "price": 139900,
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/golden-duplex-f9-productions-inc-img~57c18dc006847423_6412-1-c19cb5c-w360-h360-b0-p0.jpg"
         ]
@@ -332,7 +332,7 @@ const properties = [
         "city": "Pinellas Park",
         "bed": 3,
         "bath": 3,
-        "price": 465515,
+        "price": 165515,
         "image_links": [
           "https://ssl.cdn-redfin.com/photo/118/islphoto/375/genIslnoResize.U8233375_0.jpg"
         ]
@@ -346,8 +346,8 @@ const properties = [
             "country": "USA",
             "state": "Florida",
             "city": "Pinellas Park",
-            "bed": 1,
-            "bath": 1,
+            "bed": 3,
+            "bath": 3,
             "price": 139750,
             "image_links": [
                 "https://ssl.cdn-redfin.com/photo/118/islphoto/107/genIslnoResize.U8233107_1.jpg"
@@ -432,7 +432,7 @@ const properties = [
             "city": "Pinellas Park",
             "bed": 2,
             "bath": 2,
-            "price": 220000,
+            "price": 170000,
             "image_links": [
                 "https://i.pinimg.com/236x/7d/ab/e6/7dabe6aab5a181f641e7fe87eb3ada9b.jpg"
             ]
@@ -460,7 +460,7 @@ const properties = [
             "city": "Pinellas Park",
             "bed": 3,
             "bath": 3,
-            "price": 450000,
+            "price": 150000,
             "image_links": [
                 "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6174127-1-39acb2dc61c3fc04aa2c29a9f3894b95-m.jpg"
             ]
@@ -474,7 +474,7 @@ const properties = [
             "city": "St Petersburg",
             "bed": 2,
             "bath": 2,
-            "price": 61000,
+            "price": 161000,
             "image_links": [
                 "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8224804-1-8954e4d24a1a4aa48ecd13db7079335f-m.jpg"
             ]
