@@ -262,6 +262,9 @@
         height: auto;
         object-fit: unset;
     }
+    .search-filter{
+        width: 90%;
+    }
 }
 @media (max-width:500px){
     .search-filter{
