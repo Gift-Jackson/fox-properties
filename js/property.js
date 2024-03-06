@@ -446,7 +446,7 @@ const properties = [
             "city": "Pinellas Park",
             "bed": 2,
             "bath": 2,
-            "price": 56999,
+            "price": 156999,
             "image_links": [
                 "https://photos.zillowstatic.com/fp/83836130a8b1fa6b162ecd5bbfb5a343-p_e.jpg"
             ]
