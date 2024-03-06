@@ -182,8 +182,9 @@ const properties = [
         "price": 123000,
         "image_links": "https://avatars.mds.yandex.net/i?id=ce25da107c1d6bec8c163704ed8bb23513f9ec05-8474442-images-thumbs&n=13"
     },
+    
     {
-        "id": 1,
+        "id": 669489,
         "address": "82225 F St",
         "unit": "Unit 1A",
         "country": "USA",
@@ -195,9 +196,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/contemporary-southside-duplex-axis-productions-img~5611d1cf0e48b744_0198-1-771a267-w360-h360-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 2,
+    },
+    {
+        "id": 389155,
         "address": "34647 Camphor Dr",
         "unit": "Unit 2B",
         "country": "USA",
@@ -209,9 +210,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/pearl-street-duplex-residence-bcdc-b-costello-design-and-consulting-llc-img~b8d18808013e6a72_0955-1-150d37d-w360-h360-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 3,
+    },
+    {
+        "id": 140241,
         "address": "6626 83rd Ave N",
         "unit": "Unit 3C",
         "country": "USA",
@@ -223,9 +224,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/golden-duplex-f9-productions-inc-img~57c18dc006847423_6412-1-c19cb5c-w360-h360-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 4,
+    },
+    {
+        "id": 204778,
         "address": "93104 5th St N",
         "unit": "Unit 4D",
         "country": "USA",
@@ -233,13 +234,13 @@ const properties = [
         "city": "Pinellas Park",
         "bed": 2,
         "bath": 2,
-        "price": 39999,
+        "price": 399990,
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/stapleton-eastbridge-townhome-art-of-home-team-img~d831eb6f0db9eafc_2819-1-50ad858-w360-h360-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 5,
+    },
+    {
+        "id": 361195,
         "address": "Marisol Plan, Townes at Bayou Heights",
         "unit": "# 3VCDU5",
         "country": "USA",
@@ -251,9 +252,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/somerville-ma-multi-family-renovation-sl-haus-group-llc-img~5cb191df0f05ecdf_3878-1-dea2da9-w360-h360-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 6,
+    },
+    {
+        "id": 53792,
         "address": "Palermo Plan, Townes at Bayou Heights",
         "unit": "# QHJ14C",
         "country": "USA",
@@ -265,9 +266,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/06515dba0570cbdb_1039-w360-h360-b0-p0--.jpg"
         ]
-      },
-      {
-        "id": 7,
+    },
+    {
+        "id": 223927,
         "address": "Capri Plan, Townes at Bayou Heights",
         "unit": "# IS7TCN",
         "country": "USA",
@@ -279,9 +280,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/macpherson-street-bronte-bka-architecture-pty-ltd-img~60b109e005a4a196_9743-1-d26aa55-w450-h450-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 8,
+    },
+    {
+        "id": 442915,
         "address": "Verona Plan, Townes at Bayou Heights",
         "unit": "# 8HSX1I",
         "country": "USA",
@@ -293,9 +294,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/haeuser/gartenansicht-sieckmann-walther-architekten-img~3a41dc040ae1b410_9790-1-2cb98c3-w450-h450-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 9,
+    },
+    {
+        "id": 675333,
         "address": "6563 95th Pl N",
         "unit": "Unit 9J",
         "country": "USA",
@@ -307,9 +308,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/seeing-double-dual-occupancy-studio56-building-design-img~65b17f650bc82516_0022-1-2670046-w450-h450-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 10,
+    },
+    {
+        "id": 598356,
         "address": "6568 95th Pl N",
         "unit": "Unit 10K",
         "country": "USA",
@@ -321,9 +322,9 @@ const properties = [
         "image_links": [
           "https://st.hzcdn.com/fimgs/pictures/exteriors/baulkham-hills-buildrite-img~23c110120f0e8fca_3469-1-1f09435-w360-h360-b0-p0.jpg"
         ]
-      },
-      {
-        "id": 11,
+    },
+    {
+        "id": 87842,
         "address": "6572 95th Pl N",
         "unit": "Unit 11L",
         "country": "USA",
@@ -335,7 +336,8 @@ const properties = [
         "image_links": [
           "https://ssl.cdn-redfin.com/photo/118/islphoto/375/genIslnoResize.U8233375_0.jpg"
         ]
-      },
+    },
+
     
         {
             "id": 2055238536,
