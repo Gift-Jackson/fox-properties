@@ -142,7 +142,7 @@ header{
     color: var(--white);
 }
 
-header.active .alt-header.brand{
+header.alt-header.active.brand{
     color: var(--white);
 }
 
@@ -167,6 +167,9 @@ header.active{
 }
 .brand.active{
     color: var(--text-color);
+}
+.brand:has(+ .alt-header).active{
+    color: var(--white);
 }
 
 nav ul{

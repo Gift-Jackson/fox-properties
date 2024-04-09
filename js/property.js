@@ -33,7 +33,7 @@ const properties = [
         "bed": 1,
         "bath": 1,
         "price": 123000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=5babcca79807c6e1e9a7c9c267dc1cf5c8ff0ede-12445014-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=5babcca79807c6e1e9a7c9c267dc1cf5c8ff0ede-12125014-images-thumbs&n=13"
     },
     {
         "id": 3,
@@ -45,7 +45,7 @@ const properties = [
         "bed": 2,
         "bath": 2,
         "price": 105000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=fb42f5c16b68916680338166f5d0af56445c981a-11008180-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=fb42f5c16b68916680338166f5d0af56125c981a-11008180-images-thumbs&n=13"
     },
     {
         "id": 4,
@@ -84,7 +84,7 @@ const properties = [
         "bed": 2,
         "bath": 1,
         "price": 105000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=20825f71789bae6dabbdf439445bbdcacd1f2396-12480039-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=20825f71789bae6dabbdf439125bbdcacd1f2396-12480039-images-thumbs&n=13"
     },
     {
         "id": 7,
@@ -131,7 +131,7 @@ const properties = [
         "city": "Minneapolis",
         "bed": 3,
         "bath": 2,
-        "price":120000,
+        "price": 120000,
         "image_links": "https://avatars.mds.yandex.net/i?id=781e3bbd9ff639c1c53a3e863b7183b59d086af9-10752576-images-thumbs&n=13"
     },
     {
@@ -144,7 +144,7 @@ const properties = [
         "bed": 1,
         "bath": 1,
         "price": 112000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=cb47fc633c4da747ef4f5050479f9d8133ffa7ab-8744212-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=cb47fc633c4da747ef4f5050479f9d8133ffa7ab-8712212-images-thumbs&n=13"
     },
     {
         "id": 12,
@@ -180,9 +180,9 @@ const properties = [
         "bed": 1,
         "bath": 1,
         "price": 123000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=ce25da107c1d6bec8c163704ed8bb23513f9ec05-8474442-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=ce25da107c1d6bec8c163704ed8bb23513f9ec05-8471242-images-thumbs&n=13"
     },
-    
+
     {
         "id": 669489,
         "address": "82225 F St",
@@ -194,8 +194,114 @@ const properties = [
         "bath": 2,
         "price": 184900,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/contemporary-southside-duplex-axis-productions-img~5611d1cf0e48b744_0198-1-771a267-w360-h360-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/contemporary-southside-duplex-axis-productions-img~5611d1cf0e48b712_0198-1-771a267-w360-h360-b0-p0.jpg"
         ]
+    },
+    {
+        id: 347154377,
+        address: "Azalea Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# LSDH39",
+        bed: 3,
+        bath: 2,
+        price: 176900,
+        image_links: ["https://p.rdcpix.com/v01/lbf636345-m0od-w480_h360_x2.webp?w=640&q=75"]
+    },
+    {
+        id: 347154379,
+        address: "Windsor Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# R3N83Q",
+        bed: 3,
+        bath: 2,
+        price: 139900,
+        image_links: ["https://images1.apartments.com/i2/RwieSsRfgeUcD0Ko3zjJjoR2BPVndjFpOC5pEAEA0QY/117/2206-turnbury-ln-auburn-al-building-photo.jpg?p=1"]
+    },
+    {
+        id: 347154380,
+        address: "Rogers Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# B1JC3C",
+        bed: 4,
+        bath: 3,
+        price: 169900,
+        image_links: ["https://photos.zillowstatic.com/fp/5a368c1f71734564c5678a79d7d1181a-cc_ft_1536.jpg"]
+    },
+    {
+        id: 347154381,
+        address: "Barkley Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# E0UOF5",
+        bed: 3,
+        bath: 3,
+        price: 269900,
+        image_links: ["https://photonet.hotpads.com/search/listingPhoto/Appfolio/64301b3e-db02-11ed-8562-0a12cd946910/0000_5070895198021672498_medium.jpg"]
+    },
+    {
+        id: 347154382,
+        address: "Sanders Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# TT3DHC",
+        bed: 3,
+        bath: 3,
+        price: 209900,
+        image_links: ["https://photos.zillowstatic.com/fp/37dfa6c5e49f56761474763fa2868162-cc_ft_1536.jpg"]
+    },
+    {
+        id: 347151201,
+        address: "Two Bedroom - Townhome Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# 2RM02N",
+        bed: 2,
+        bath: 2,
+        price: 134900,
+        image_links: ["https://photos.zillowstatic.com/fp/da2e20effcd91107e142f02b993592a4-p_e.jpg"]
+    },
+    {
+        id: 2060532306,
+        address: "Norwick II Plan, Cannongate",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# VTNWX9",
+        bed: 4,
+        bath: 5,
+        price: 272899,
+        image_links: ["https://photos.zillowstatic.com/fp/1f42a32f790552ed887506a10f7757b7-p_e.jpg"]
+    },
+    {
+        id: 76021206,
+        address: "203 Etowah Ave",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        bed: 4,
+        bath: 3,
+        price: 179900,
+        image_links: ["https://photos.zillowstatic.com/fp/24877f316e04ca93b3ff3a3b453927ad-p_e.jpg"]
+    },
+    {
+        id: 76022153,
+        address: "506 Avenue A",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        bed: 5,
+        bath: 2,
+        price: 250000,
+        image_links: ["https://photos.zillowstatic.com/fp/a5649cc21a861536f3e8b41827bd1c3e-p_e.jpg"]
     },
     {
         "id": 389155,
@@ -208,7 +314,7 @@ const properties = [
         "bath": 2,
         "price": 259900,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/pearl-street-duplex-residence-bcdc-b-costello-design-and-consulting-llc-img~b8d18808013e6a72_0955-1-150d37d-w360-h360-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/pearl-street-duplex-residence-bcdc-b-costello-design-and-consulting-llc-img~b8d18808013e6a72_0955-1-150d37d-w360-h360-b0-p0.jpg"
         ]
     },
     {
@@ -222,7 +328,7 @@ const properties = [
         "bath": 3,
         "price": 139900,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/golden-duplex-f9-productions-inc-img~57c18dc006847423_6412-1-c19cb5c-w360-h360-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/golden-duplex-f9-productions-inc-img~57c18dc006847423_6412-1-c19cb5c-w360-h360-b0-p0.jpg"
         ]
     },
     {
@@ -236,7 +342,7 @@ const properties = [
         "bath": 2,
         "price": 399990,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/stapleton-eastbridge-townhome-art-of-home-team-img~d831eb6f0db9eafc_2819-1-50ad858-w360-h360-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/stapleton-eastbridge-townhome-art-of-home-team-img~d831eb6f0db9eafc_2819-1-50ad858-w360-h360-b0-p0.jpg"
         ]
     },
     {
@@ -250,7 +356,7 @@ const properties = [
         "bath": 3,
         "price": 496990,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/somerville-ma-multi-family-renovation-sl-haus-group-llc-img~5cb191df0f05ecdf_3878-1-dea2da9-w360-h360-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/somerville-ma-multi-family-renovation-sl-haus-group-llc-img~5cb191df0f05ecdf_3878-1-dea2da9-w360-h360-b0-p0.jpg"
         ]
     },
     {
@@ -264,7 +370,7 @@ const properties = [
         "bath": 3,
         "price": 480990,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/06515dba0570cbdb_1039-w360-h360-b0-p0--.jpg"
+            "https://st.hzcdn.com/fimgs/06515dba0570cbdb_1039-w360-h360-b0-p0--.jpg"
         ]
     },
     {
@@ -278,11 +384,11 @@ const properties = [
         "bath": 3,
         "price": 456990,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/macpherson-street-bronte-bka-architecture-pty-ltd-img~60b109e005a4a196_9743-1-d26aa55-w450-h450-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/macpherson-street-bronte-bka-architecture-pty-ltd-img~60b109e005a4a196_9743-1-d26aa55-w450-h450-b0-p0.jpg"
         ]
     },
     {
-        "id": 442915,
+        "id": 122915,
         "address": "Verona Plan, Townes at Bayou Heights",
         "unit": "# 8HSX1I",
         "country": "USA",
@@ -292,7 +398,7 @@ const properties = [
         "bath": 3,
         "price": 514990,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/haeuser/gartenansicht-sieckmann-walther-architekten-img~3a41dc040ae1b410_9790-1-2cb98c3-w450-h450-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/haeuser/gartenansicht-sieckmann-walther-architekten-img~3a41dc040ae1b410_9790-1-2cb98c3-w450-h450-b0-p0.jpg"
         ]
     },
     {
@@ -306,7 +412,7 @@ const properties = [
         "bath": 3,
         "price": 488825,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/seeing-double-dual-occupancy-studio56-building-design-img~65b17f650bc82516_0022-1-2670046-w450-h450-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/seeing-double-dual-occupancy-studio56-building-design-img~65b17f650bc82516_0022-1-2670046-w450-h450-b0-p0.jpg"
         ]
     },
     {
@@ -320,7 +426,7 @@ const properties = [
         "bath": 3,
         "price": 523990,
         "image_links": [
-          "https://st.hzcdn.com/fimgs/pictures/exteriors/baulkham-hills-buildrite-img~23c110120f0e8fca_3469-1-1f09435-w360-h360-b0-p0.jpg"
+            "https://st.hzcdn.com/fimgs/pictures/exteriors/baulkham-hills-buildrite-img~23c110120f0e8fca_3469-1-1f09435-w360-h360-b0-p0.jpg"
         ]
     },
     {
@@ -334,151 +440,151 @@ const properties = [
         "bath": 3,
         "price": 165515,
         "image_links": [
-          "https://ssl.cdn-redfin.com/photo/118/islphoto/375/genIslnoResize.U8233375_0.jpg"
+            "https://ssl.cdn-redfin.com/photo/118/islphoto/375/genIslnoResize.U8233375_0.jpg"
         ]
     },
 
-    
-        {
-            "id": 2055238536,
-            "address": "5689 67th Ave N",
-            "unit": "# 5689",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 3,
-            "bath": 3,
-            "price": 139750,
-            "image_links": [
-                "https://ssl.cdn-redfin.com/photo/118/islphoto/107/genIslnoResize.U8233107_1.jpg"
-            ]
-        },
-        {
-            "id": 340015559,
-            "address": "3632 91st Ave N",
-            "unit": "# 6",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 2,
-            "bath": 2,
-            "price": 349900,
-            "image_links": [
-                "https://ap.rdcpix.com/d5c72e3b203efb3f6bd79f455e6cd9c9l-m4233250299od-w480_h360_x2.webp`"
-            ]
-        },
-        {
-            "id": 47122843,
-            "address": "9790 66th St N LOT 340",
-            "unit": "Lot 340",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 2,
-            "bath": 2,
-            "price": 129900,
-            "image_links": [
-                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8233509-1-6e1584b09ba4dda50b8ad245703adc47-m.jpg"
-            ]
-        },
-        {
-            "id": 339970891,
-            "address": "6207 64th Way N",
-            "unit": "Unit A",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 3,
-            "bath": 4,
-            "price": 725000,
-            "image_links": [
-                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6182772-1-f2dfc4db19ef3304ff021fc036b5cd3e-m.jpg"
-            ]
-        },
-        {
-            "id": 47148923,
-            "address": "9605 44th St N",
-            "unit": "Unit A",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 2,
-            "bath": 2,
-            "price": 315000,
-            "image_links": [
-                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfrt3500124-1-572103edbd1e5bb8070ad7eaf5868f62-m.jpg"
-            ]
-        },
-        {
-            "id": 2054169172,
-            "address": "66019 London Rd N",
-            "unit": "Unit A",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 2,
-            "bath": 2,
-            "price": 169999,
-            "image_links": [
-                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfrw7860164-1-2e0a83fc613b5eb24c952c5622c94c30-m.jpg"
-            ]
-        },
-        {
-            "id": 2052854932,
-            "address": "8482 60th St N",
-            "unit": "# 804",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 2,
-            "bath": 2,
-            "price": 170000,
-            "image_links": [
-                "https://i.pinimg.com/236x/7d/ab/e6/7dabe6aab5a181f641e7fe87eb3ada9b.jpg"
-            ]
-        },
-        {
-            "id": 2098811041,
-            "address": "66178 London Rd N",
-            "unit": "Unit A",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 2,
-            "bath": 2,
-            "price": 156999,
-            "image_links": [
-                "https://photos.zillowstatic.com/fp/83836130a8b1fa6b162ecd5bbfb5a343-p_e.jpg"
-            ]
-        },
-        {
-            "id": 47205907,
-            "address": "6226 76th Ave N",
-            "unit": "Unit A",
-            "country": "USA",
-            "state": "Florida",
-            "city": "Pinellas Park",
-            "bed": 3,
-            "bath": 3,
-            "price": 150000,
-            "image_links": [
-                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6174127-1-39acb2dc61c3fc04aa2c29a9f3894b95-m.jpg"
-            ]
-        },
-        {
-            "id": 2092297265,
-            "address": "3390 Gandy Blvd N",
-            "unit": "Lot 153",
-            "country": "USA",
-            "state": "Florida",
-            "city": "St Petersburg",
-            "bed": 2,
-            "bath": 2,
-            "price": 161000,
-            "image_links": [
-                "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8224804-1-8954e4d24a1a4aa48ecd13db7079335f-m.jpg"
-            ]
-        }
+
+    {
+        "id": 2055238536,
+        "address": "5689 67th Ave N",
+        "unit": "# 5689",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 3,
+        "bath": 3,
+        "price": 139750,
+        "image_links": [
+            "https://ssl.cdn-redfin.com/photo/118/islphoto/107/genIslnoResize.U8233107_1.jpg"
+        ]
+    },
+    {
+        "id": 340015559,
+        "address": "3632 91st Ave N",
+        "unit": "# 6",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 349900,
+        "image_links": [
+            "https://ap.rdcpix.com/d5c72e3b203efb3f6bd79f455e6cd9c9l-m4233250299od-w480_h360_x2.webp`"
+        ]
+    },
+    {
+        "id": 47122843,
+        "address": "9790 66th St N LOT 340",
+        "unit": "Lot 340",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 129900,
+        "image_links": [
+            "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8233509-1-6e1584b09ba4dda50b8ad245703adc47-m.jpg"
+        ]
+    },
+    {
+        "id": 339970891,
+        "address": "6207 64th Way N",
+        "unit": "Unit A",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 3,
+        "bath": 4,
+        "price": 725000,
+        "image_links": [
+            "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6182772-1-f2dfc4db19ef3304ff021fc036b5cd3e-m.jpg"
+        ]
+    },
+    {
+        "id": 47148923,
+        "address": "9605 12th St N",
+        "unit": "Unit A",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 315000,
+        "image_links": [
+            "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfrt3500124-1-572103edbd1e5bb8070ad7eaf5868f62-m.jpg"
+        ]
+    },
+    {
+        "id": 2054169172,
+        "address": "66019 London Rd N",
+        "unit": "Unit A",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 169999,
+        "image_links": [
+            "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfrw7860164-1-2e0a83fc613b5eb24c952c5622c94c30-m.jpg"
+        ]
+    },
+    {
+        "id": 2052854932,
+        "address": "8482 60th St N",
+        "unit": "# 804",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 170000,
+        "image_links": [
+            "https://i.pinimg.com/236x/7d/ab/e6/7dabe6aab5a181f641e7fe87eb3ada9b.jpg"
+        ]
+    },
+    {
+        "id": 2098811041,
+        "address": "66178 London Rd N",
+        "unit": "Unit A",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 2,
+        "bath": 2,
+        "price": 156999,
+        "image_links": [
+            "https://photos.zillowstatic.com/fp/83836130a8b1fa6b162ecd5bbfb5a343-p_e.jpg"
+        ]
+    },
+    {
+        "id": 47205907,
+        "address": "6226 76th Ave N",
+        "unit": "Unit A",
+        "country": "USA",
+        "state": "Florida",
+        "city": "Pinellas Park",
+        "bed": 3,
+        "bath": 3,
+        "price": 150000,
+        "image_links": [
+            "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfro6174127-1-39acb2dc61c3fc04aa2c29a9f3894b95-m.jpg"
+        ]
+    },
+    {
+        "id": 2092297265,
+        "address": "3390 Gandy Blvd N",
+        "unit": "Lot 153",
+        "country": "USA",
+        "state": "Florida",
+        "city": "St Petersburg",
+        "bed": 2,
+        "bath": 2,
+        "price": 161000,
+        "image_links": [
+            "https://feed-images.rewhosting.com/stellar/_cloud_media/property/residential/mfru8224804-1-8954e4d24a1a4aa48ecd13db7079335f-m.jpg"
+        ]
+    }
     ,
     {
         "id": 15,
@@ -526,7 +632,7 @@ const properties = [
         "bed": 3,
         "bath": 2,
         "price": 405000,
-        "image_links": "https://photos.zillowstatic.com/fp/e878a44011d3c156bff9b6804fdd0486-p_e.jpg"
+        "image_links": "https://photos.zillowstatic.com/fp/e878a12011d3c156bff9b6804fdd0486-p_e.jpg"
     },
     {
         "id": 24,
@@ -658,7 +764,7 @@ const properties = [
         "bed": 1,
         "bath": 1,
         "price": 123000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=0b0fc54a3cd8eea866435eddbac59d5f31975dad-12144750-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=0b0fc54a3cd8eea866435eddbac59d5f31975dad-12112750-images-thumbs&n=13"
     },
     {
         "id": 21,
@@ -670,7 +776,127 @@ const properties = [
         "bed": 2,
         "bath": 1,
         "price": 105000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=d07210f5d8652bd29bb3244aadd3dd1a8edbf214-11481522-images-thumbs&n=13"
+        "image_links": "https://avatars.mds.yandex.net/i?id=d07210f5d8652bd29bb3212aadd3dd1a8edbf214-11481522-images-thumbs&n=13"
+    },
+    {
+        id: 2054680861,
+        address: "529 Waterpoint Way",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "",
+        bed: 2,
+        bath: 3,
+        price: 185000,
+        image_links: ["https://photos.zillowstatic.com/fp/7153934f80b797f7a2178f1bfed5d686-p_e.jpg"]
+    },
+    {
+        id: 210902337,
+        address: "1201 Denson Dr",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "",
+        bed: 3,
+        bath: 2,
+        price: 155000,
+        image_links: ["https://photos.zillowstatic.com/fp/cbe5c971dbad4321ba3fc057403e355e-p_e.jpg"]
+    },
+    {
+        id: 2055126934,
+        address: "Maine Plan, The Woods",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# I73IZI",
+        bed: 3,
+        bath: 3,
+        price: 179900,
+        image_links: ["https://photos.zillowstatic.com/fp/e665b0f8bec5f8d4535b28fbd8ab83f1-p_e.jpg"]
+    },
+    {
+        id: 76043531,
+        address: "1800 Northgate Dr",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "",
+        bed: 4,
+        bath: 3,
+        price: 119000,
+        image_links: ["https://photos.zillowstatic.com/fp/8157a29d0cc8f2229e8358592ecba03b-p_e.jpg"]
+    },
+    {
+        id: 2060520109,
+        address: "Morningside Plan, Cannongate",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# YJ86OJ",
+        bed: 4,
+        bath: 3,
+        price: 141699,
+        image_links: ["https://photos.zillowstatic.com/fp/b97961ae4342356caf014cd1f6c28254-p_e.jpg"]
+    },
+    {
+        id: 2055630369,
+        address: "Morningside II Plan, Hidden Lakes",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# 5UP5RJ",
+        bed: 4,
+        bath: 4,
+        price: 136099,
+        image_links: ["https://photos.zillowstatic.com/fp/0195ccdae0ad33e27c86c3a9d7088e3d-p_e.jpg"]
+    },
+    {
+        id: 2060520118,
+        address: "Huddlestone II Plan, Cannongate",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# 2NMUBN",
+        bed: 4,
+        bath: 5,
+        price: 173999,
+        image_links: ["https://photos.zillowstatic.com/fp/b8d6b1a5bc014161aa72e65ae13ae91a-p_e.jpg"]
+    },
+    {
+        id: 346922876,
+        address: "0 Cherokee Dr",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "",
+        bed: 0,
+        bath: 0,
+        price: 95000,
+        image_links: ["https://photos.zillowstatic.com/fp/8f5d15752403e08119f8faf959da2c35-p_e.jpg"]
+    },
+    {
+        id: 2054958730,
+        address: "Mollette Plan, Cannongate",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# G85G1S",
+        bed: 5,
+        bath: 4,
+        price: 159499,
+        image_links: ["https://photos.zillowstatic.com/fp/e00de0bcca9bef9939809fc8597adea7-p_e.jpg"]
+    },
+    {
+        id: 2060532309,
+        address: "Sutherland Plan, Cannongate",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# K7S5T7",
+        bed: 4,
+        bath: 4,
+        price: 168999,
+        image_links: ["https://photos.zillowstatic.com/fp/fcfe1d2033bea5abef812eb6c341370f-p_e.jpg"]
     },
     {
         "id": 60,
@@ -717,7 +943,7 @@ const properties = [
         "image_links": "https://photos.zillowstatic.com/fp/cef6361b2913b43f4e9f80fec9b52db8-p_e.jpg",
         "bed": 4,
         "bath": 3,
-        "price": 344900,
+        "price": 312900,
         "unit": "Unit D"
     },
     {
@@ -1012,8 +1238,8 @@ const properties = [
         "bath": 2,
         "price": 299900,
         "image_links": "https://photos.zillowstatic.com/fp/d2ba2eeb8fbe27c8f066cdf4ad51b404-p_e.jpg"
-      },
-      {
+    },
+    {
         "id": 39,
         "address": "182 Shore Dr",
         "country": "USA",
@@ -1024,8 +1250,8 @@ const properties = [
         "bath": 2,
         "price": 511000,
         "image_links": "https://photos.zillowstatic.com/fp/5ec592c9a4a93fd7ff0f2c3baa8793ce-p_e.jpg"
-      },
-      {
+    },
+    {
         "id": 40,
         "address": "LOT 11 Jennifer Ln",
         "country": "USA",
@@ -1035,9 +1261,9 @@ const properties = [
         "bed": null,
         "bath": null,
         "price": 25000,
-        "image_links": "https://photos.zillowstatic.com/fp/05013bd41831c112304948d8bde6e442-p_e.jpg"
-      },
-      {
+        "image_links": "https://photos.zillowstatic.com/fp/05013bd41831c112304948d8bde6e122-p_e.jpg"
+    },
+    {
         "id": 41,
         "address": "23 Shore Dr",
         "country": "USA",
@@ -1048,8 +1274,8 @@ const properties = [
         "bath": null,
         "price": 220000,
         "image_links": "https://photos.zillowstatic.com/fp/b7d61ba7ff21d974fa40904e2018888d-p_e.jpg"
-      },
-      {
+    },
+    {
         "id": 42,
         "address": "1109 Springhill Rd",
         "country": "USA",
@@ -1060,8 +1286,8 @@ const properties = [
         "bath": 2,
         "price": 250000,
         "image_links": "https://photos.zillowstatic.com/fp/8dc562962c6a1bba66f7ce22d3c1f7f7-p_e.jpg"
-      },
-      {
+    },
+    {
         "id": 43,
         "address": "23 Ireland St",
         "country": "USA",
@@ -1072,9 +1298,9 @@ const properties = [
         "bath": 3,
         "price": 429000,
         "image_links": "https://photos.zillowstatic.com/fp/9dbb920a434e32fd967643bf7d86c56c-p_e.jpg"
-      },
-      {
-        "id": 44,
+    },
+    {
+        "id": 12,
         "address": "238 Misty Point Ln",
         "country": "USA",
         "state": "Virginia",
@@ -1082,10 +1308,10 @@ const properties = [
         "unit": "Unit 7",
         "bed": 2,
         "bath": 2,
-        "price": 218000,
+        "price": 118000,
         "image_links": "https://photos.zillowstatic.com/fp/6ddac49a71eeea02b9be6fe1a8218dc8-p_e.jpg"
-      },
-      {
+    },
+    {
         "id": 45,
         "address": "305 Bridgewater Dr",
         "country": "USA",
@@ -1094,9 +1320,115 @@ const properties = [
         "unit": "Unit 8",
         "bed": 3,
         "bath": 3,
-        "price": 225000,
+        "price": 125000,
         "image_links": "https://photos.zillowstatic.com/fp/cc249566f4a9242a2b89c42deca3703a-p_e.jpg"
-      }
+    },
+
+    {
+        id: 2057596617,
+        address: "The Konrad Plan, Fox Run Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# J74KAX",
+        bed: 3,
+        bath: 3,
+        price: 119900,
+        image_links: ["https://photos.zillowstatic.com/fp/b5c9f4340bbd1828a825de26bee431be-p_e.jpg"]
+    },
+    {
+        id: 210903830,
+        address: "1210 Lake Ave",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        bed: 2,
+        bath: 1,
+        price: 39900,
+        image_links: ["https://photos.zillowstatic.com/fp/b46d86cc4d9c74f1507cd9f13e757d5c-p_e.jpg"]
+    },
+    {
+        id: 2055630352,
+        address: "Alexandria Plan, Hidden Lakes",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# D0NKW9",
+        bed: 4,
+        bath: 3,
+        price: 133199,
+        image_links: ["https://photos.zillowstatic.com/fp/c69715b6e0ba5eff3c41c5f8cc84d7f0-p_e.jpg"]
+    },
+    {
+        id: 2055630359,
+        address: "Brunswick Plan, Hidden Lakes",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# 2JPHPN",
+        bed: 4,
+        bath: 4,
+        price: 159799,
+        image_links: ["https://photos.zillowstatic.com/fp/9905d01a55231a00f124b36b62ec7eed-p_e.jpg"]
+    },
+    {
+        id: 76022042,
+        address: "1000 3rd Ave",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        bed: 3,
+        bath: 2,
+        price: 129000,
+        image_links: ["https://photos.zillowstatic.com/fp/b83b3f32c7a3887800a813e0b2f856f4-p_e.jpg"]
+    },
+    {
+        id: 2054680825,
+        address: "660 Village Dr",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        bed: 2,
+        bath: 2,
+        price: 189000,
+        image_links: ["https://photos.zillowstatic.com/fp/f38aba5b5b100bc5da66fe923ebf4736-p_e.jpg"]
+    },
+    {
+        id: 347213477,
+        address: "Winchester Plan, Cannongate",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# G3BBBN",
+        bed: 7,
+        bath: 5,
+        price: 124899,
+        image_links: ["https://photos.zillowstatic.com/fp/268431facf0ebb4f72ed7543a272382a-p_e.jpg"]
+    },
+    {
+        id: 2055630346,
+        address: "Norwick II Plan, Hidden Lakes",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# 3J0SQC",
+        bed: 4,
+        bath: 5,
+        price: 135799,
+        image_links: ["https://photos.zillowstatic.com/fp/1f42a32f790552ed887506a10f7757b7-p_e.jpg"]
+    },
+    {
+        id: 347154314,
+        address: "Three Bedroom - Townhome Plan, Windsor Village",
+        country: "USA",
+        state: "AL",
+        city: "Opelika",
+        unit: "# SLEO98",
+        bed: 3,
+        bath: 2,
+        price: 139900,
+        image_links: ["https://photos.zillowstatic.com/fp/00a659bff640e97a268bdc2b07605173-p_e.jpg"]
+    }
 ];
 
 const houses = [...new Set(properties.map((item) => { return item }))];
@@ -1113,7 +1445,7 @@ let searchbar = document.getElementById("search").addEventListener("keyup", (e) 
 
 // filter Buttons
 const allBtn = document.querySelector(".all")
-const texasBtn = document.querySelector(".texas")
+const opelikaBtn = document.querySelector(".opelika")
 const minnesotaBtn = document.querySelector(".minnesota")
 const virginiaBtn = document.querySelector(".virginia")
 const pinellasBtn = document.querySelector(".pinellas")
@@ -1124,10 +1456,10 @@ allBtn.addEventListener('click', () => {
     displayItem(houses);
 });
 
-texasBtn.addEventListener('click', () => {
+opelikaBtn.addEventListener('click', () => {
     let searchBar = document.getElementById("search");
-    searchBar.value = 'Texas';
-    filterData = houses.filter(item => item.state.includes('Texas'));
+    searchBar.value = 'Opelika';
+    filterData = houses.filter(item => item.state.includes('AL'));
     displayItem(filterData);
 });
 
@@ -1170,7 +1502,7 @@ const displayItem = (items) => {
                 <div class="property" data-aos="zoom-in" onclick="view(${item.id})">
             <img src="${image_links}" alt="${unit}">
             <div class="property-details">
-                <h3 class="unit">${unit}</h3>
+                
                 <div class="flex">
                     <span class="material-symbols-rounded">
                         home_pin

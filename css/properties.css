@@ -42,8 +42,9 @@
 
 .searchBar:focus-within{
     border-color: var(--primary-color);
-    outline: 3px solid var(--primary-color);
+    outline: 3px solid rgba(255, 69, 0,.3);
     outline-offset: 2px;
+    box-shadow: 0 0 5px #ff4500;
 }
 
 .searchBar span{
@@ -54,7 +55,7 @@
 .filter{
     display: flex;
     flex-wrap: wrap;
-    gap: .5rem;
+    gap: .2rem;
     margin-top: .5rem;
 }
 
@@ -63,9 +64,9 @@
 }
 .filter label{
     border: 1px solid #ddd;
-    padding: .3rem 1rem;
+    padding: .3rem .7rem;
     border-radius: 50px;
-    font-size: 12px;
+    font-size: small;
 }
 
 .filter input:checked + label{
@@ -111,8 +112,9 @@
     position: absolute;
     top: 1rem;
     left: 1rem;
-    padding: .5rem 1rem;
+    padding: .3rem 1rem;
     border-radius: 50px;
+    font-size: small;
 }
 
 .property img{
