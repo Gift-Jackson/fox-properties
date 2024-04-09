@@ -23,30 +23,30 @@ const properties = [
         "price": 132000,
         "image_links": "https://avatars.mds.yandex.net/i?id=a8eed5c602acfe70462132e687569b253ba2e7de-10727636-images-thumbs&n=13"
     },
-    {
-        "id": 2,
-        "address": "789 Lakeview Blvd",
-        "unit": "Unit 201",
-        "country": "USA",
-        "state": "Minnesota",
-        "city": "Minneapolis",
-        "bed": 1,
-        "bath": 1,
-        "price": 123000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=5babcca79807c6e1e9a7c9c267dc1cf5c8ff0ede-12125014-images-thumbs&n=13"
-    },
-    {
-        "id": 3,
-        "address": "321 Lakeview Ct",
-        "unit": "Unit 301",
-        "country": "USA",
-        "state": "Minnesota",
-        "city": "Minneapolis",
-        "bed": 2,
-        "bath": 2,
-        "price": 105000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=fb42f5c16b68916680338166f5d0af56125c981a-11008180-images-thumbs&n=13"
-    },
+    // {
+    //     "id": 2,
+    //     "address": "789 Lakeview Blvd",
+    //     "unit": "Unit 201",
+    //     "country": "USA",
+    //     "state": "Minnesota",
+    //     "city": "Minneapolis",
+    //     "bed": 1,
+    //     "bath": 1,
+    //     "price": 123000,
+    //     "image_links": "https://avatars.mds.yandex.net/i?id=5babcca79807c6e1e9a7c9c267dc1cf5c8ff0ede-12125014-images-thumbs&n=13"
+    // },
+    // {
+    //     "id": 3,
+    //     "address": "321 Lakeview Ct",
+    //     "unit": "Unit 301",
+    //     "country": "USA",
+    //     "state": "Minnesota",
+    //     "city": "Minneapolis",
+    //     "bed": 2,
+    //     "bath": 2,
+    //     "price": 105000,
+    //     "image_links": "https://avatars.mds.yandex.net/i?id=fb42f5c16b68916680338166f5d0af56125c981a-11008180-images-thumbs&n=13"
+    // },
     {
         "id": 4,
         "address": "741 Lakeview Dr",
@@ -74,18 +74,18 @@ const properties = [
         "price": 112000,
         "image_links": "https://avatars.mds.yandex.net/i?id=c4d75473a11f4e4ce59f097174e2caddf73e293a-5232212-images-thumbs&n=13"
     },
-    {
-        "id": 6,
-        "address": "963 Lakeview Loop",
-        "unit": "Apt 601",
-        "country": "USA",
-        "state": "Minnesota",
-        "city": "Minneapolis",
-        "bed": 2,
-        "bath": 1,
-        "price": 105000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=20825f71789bae6dabbdf439125bbdcacd1f2396-12480039-images-thumbs&n=13"
-    },
+    // {
+    //     "id": 6,
+    //     "address": "963 Lakeview Loop",
+    //     "unit": "Apt 601",
+    //     "country": "USA",
+    //     "state": "Minnesota",
+    //     "city": "Minneapolis",
+    //     "bed": 2,
+    //     "bath": 1,
+    //     "price": 105000,
+    //     "image_links": "https://avatars.mds.yandex.net/i?id=20825f71789bae6dabbdf439125bbdcacd1f2396-12480039-images-thumbs&n=13"
+    // },
     {
         "id": 7,
         "address": "852 Lakeview Ln",
@@ -134,18 +134,18 @@ const properties = [
         "price": 120000,
         "image_links": "https://avatars.mds.yandex.net/i?id=781e3bbd9ff639c1c53a3e863b7183b59d086af9-10752576-images-thumbs&n=13"
     },
-    {
-        "id": 11,
-        "address": "963 Lakeview Loop",
-        "unit": "Apt 1101",
-        "country": "USA",
-        "state": "Minnesota",
-        "city": "Minneapolis",
-        "bed": 1,
-        "bath": 1,
-        "price": 112000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=cb47fc633c4da747ef4f5050479f9d8133ffa7ab-8712212-images-thumbs&n=13"
-    },
+    // {
+    //     "id": 11,
+    //     "address": "963 Lakeview Loop",
+    //     "unit": "Apt 1101",
+    //     "country": "USA",
+    //     "state": "Minnesota",
+    //     "city": "Minneapolis",
+    //     "bed": 1,
+    //     "bath": 1,
+    //     "price": 112000,
+    //     "image_links": "https://avatars.mds.yandex.net/i?id=cb47fc633c4da747ef4f5050479f9d8133ffa7ab-8712212-images-thumbs&n=13"
+    // },
     {
         "id": 12,
         "address": "852 Lakeview Ln",
@@ -170,33 +170,33 @@ const properties = [
         "price": 132000,
         "image_links": "https://avatars.mds.yandex.net/i?id=def3658b8683878e748f5d8f51c682e232c72990-11271031-images-thumbs&n=13"
     },
-    {
-        "id": 14,
-        "address": "741 Lakeview Dr",
-        "unit": "Unit 1401",
-        "country": "USA",
-        "state": "Minnesota",
-        "city": "Minneapolis",
-        "bed": 1,
-        "bath": 1,
-        "price": 123000,
-        "image_links": "https://avatars.mds.yandex.net/i?id=ce25da107c1d6bec8c163704ed8bb23513f9ec05-8471242-images-thumbs&n=13"
-    },
+    // {
+    //     "id": 14,
+    //     "address": "741 Lakeview Dr",
+    //     "unit": "Unit 1401",
+    //     "country": "USA",
+    //     "state": "Minnesota",
+    //     "city": "Minneapolis",
+    //     "bed": 1,
+    //     "bath": 1,
+    //     "price": 123000,
+    //     "image_links": "https://avatars.mds.yandex.net/i?id=ce25da107c1d6bec8c163704ed8bb23513f9ec05-8471242-images-thumbs&n=13"
+    // },
 
-    {
-        "id": 669489,
-        "address": "82225 F St",
-        "unit": "Unit 1A",
-        "country": "USA",
-        "state": "Florida",
-        "city": "Pinellas Park",
-        "bed": 2,
-        "bath": 2,
-        "price": 184900,
-        "image_links": [
-            "https://st.hzcdn.com/fimgs/pictures/exteriors/contemporary-southside-duplex-axis-productions-img~5611d1cf0e48b712_0198-1-771a267-w360-h360-b0-p0.jpg"
-        ]
-    },
+    // {
+    //     "id": 669489,
+    //     "address": "82225 F St",
+    //     "unit": "Unit 1A",
+    //     "country": "USA",
+    //     "state": "Florida",
+    //     "city": "Pinellas Park",
+    //     "bed": 2,
+    //     "bath": 2,
+    //     "price": 184900,
+    //     "image_links": [
+    //         "https://st.hzcdn.com/fimgs/pictures/exteriors/contemporary-southside-duplex-axis-productions-img~5611d1cf0e48b712_0198-1-771a267-w360-h360-b0-p0.jpg"
+    //     ]
+    // },
     {
         id: 347154377,
         address: "Azalea Plan, Windsor Village",
