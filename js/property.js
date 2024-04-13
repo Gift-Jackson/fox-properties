@@ -107,7 +107,7 @@ const properties = [
         "city": "Minneapolis",
         "bed": 1,
         "bath": 1,
-        "price": 123000,
+        price: 44123000,
         "image_links": "https://avatars.mds.yandex.net/i?id=6f6d6c0ef6fc96a87e765e267a1ed72fcf61b8d0-7549373-images-thumbs&n=13"
     },
     {
@@ -206,7 +206,7 @@ const properties = [
         unit: "# LSDH39",
         bed: 3,
         bath: 2,
-        price: 176900,
+        price: 96900,
         image_links: ["https://p.rdcpix.com/v01/lbf636345-m0od-w480_h360_x2.webp?w=640&q=75"]
     },
     {
@@ -218,7 +218,7 @@ const properties = [
         unit: "# R3N83Q",
         bed: 3,
         bath: 2,
-        price: 139900,
+        price: 88900,
         image_links: ["https://images1.apartments.com/i2/RwieSsRfgeUcD0Ko3zjJjoR2BPVndjFpOC5pEAEA0QY/117/2206-turnbury-ln-auburn-al-building-photo.jpg?p=1"]
     },
     {
@@ -230,7 +230,7 @@ const properties = [
         unit: "# B1JC3C",
         bed: 4,
         bath: 3,
-        price: 169900,
+        price: 109900,
         image_links: ["https://photos.zillowstatic.com/fp/5a368c1f71734564c5678a79d7d1181a-cc_ft_1536.jpg"]
     },
     {
@@ -242,7 +242,7 @@ const properties = [
         unit: "# E0UOF5",
         bed: 3,
         bath: 3,
-        price: 269900,
+        price: 102900,
         image_links: ["https://photonet.hotpads.com/search/listingPhoto/Appfolio/64301b3e-db02-11ed-8562-0a12cd946910/0000_5070895198021672498_medium.jpg"]
     },
     {
@@ -254,7 +254,7 @@ const properties = [
         unit: "# TT3DHC",
         bed: 3,
         bath: 3,
-        price: 209900,
+        price: 109900,
         image_links: ["https://photos.zillowstatic.com/fp/37dfa6c5e49f56761474763fa2868162-cc_ft_1536.jpg"]
     },
     {
@@ -266,7 +266,7 @@ const properties = [
         unit: "# 2RM02N",
         bed: 2,
         bath: 2,
-        price: 134900,
+        price: 74900,
         image_links: ["https://photos.zillowstatic.com/fp/da2e20effcd91107e142f02b993592a4-p_e.jpg"]
     },
     {
@@ -278,7 +278,7 @@ const properties = [
         unit: "# VTNWX9",
         bed: 4,
         bath: 5,
-        price: 272899,
+        price: 72899,
         image_links: ["https://photos.zillowstatic.com/fp/1f42a32f790552ed887506a10f7757b7-p_e.jpg"]
     },
     {
@@ -300,7 +300,7 @@ const properties = [
         city: "Opelika",
         bed: 5,
         bath: 2,
-        price: 250000,
+        price: 50000,
         image_links: ["https://photos.zillowstatic.com/fp/a5649cc21a861536f3e8b41827bd1c3e-p_e.jpg"]
     },
     {
@@ -787,7 +787,7 @@ const properties = [
         unit: "",
         bed: 2,
         bath: 3,
-        price: 185000,
+        price: 85000,
         image_links: ["https://photos.zillowstatic.com/fp/7153934f80b797f7a2178f1bfed5d686-p_e.jpg"]
     },
     {
@@ -799,7 +799,7 @@ const properties = [
         unit: "",
         bed: 3,
         bath: 2,
-        price: 155000,
+        price: 55000,
         image_links: ["https://photos.zillowstatic.com/fp/cbe5c971dbad4321ba3fc057403e355e-p_e.jpg"]
     },
     {
@@ -811,7 +811,7 @@ const properties = [
         unit: "# I73IZI",
         bed: 3,
         bath: 3,
-        price: 179900,
+        price: 79900,
         image_links: ["https://photos.zillowstatic.com/fp/e665b0f8bec5f8d4535b28fbd8ab83f1-p_e.jpg"]
     },
     {
@@ -823,7 +823,7 @@ const properties = [
         unit: "",
         bed: 4,
         bath: 3,
-        price: 119000,
+        price: 59000,
         image_links: ["https://photos.zillowstatic.com/fp/8157a29d0cc8f2229e8358592ecba03b-p_e.jpg"]
     },
     {
@@ -835,7 +835,7 @@ const properties = [
         unit: "# YJ86OJ",
         bed: 4,
         bath: 3,
-        price: 141699,
+        price: 51699,
         image_links: ["https://photos.zillowstatic.com/fp/b97961ae4342356caf014cd1f6c28254-p_e.jpg"]
     },
     {
@@ -847,7 +847,7 @@ const properties = [
         unit: "# 5UP5RJ",
         bed: 4,
         bath: 4,
-        price: 136099,
+        price: 66099,
         image_links: ["https://photos.zillowstatic.com/fp/0195ccdae0ad33e27c86c3a9d7088e3d-p_e.jpg"]
     },
     {
@@ -883,7 +883,7 @@ const properties = [
         unit: "# G85G1S",
         bed: 5,
         bath: 4,
-        price: 159499,
+        price: 79499,
         image_links: ["https://photos.zillowstatic.com/fp/e00de0bcca9bef9939809fc8597adea7-p_e.jpg"]
     },
     {
@@ -895,7 +895,7 @@ const properties = [
         unit: "# K7S5T7",
         bed: 4,
         bath: 4,
-        price: 168999,
+        price: 68999,
         image_links: ["https://photos.zillowstatic.com/fp/fcfe1d2033bea5abef812eb6c341370f-p_e.jpg"]
     },
     {
@@ -1333,7 +1333,7 @@ const properties = [
         unit: "# J74KAX",
         bed: 3,
         bath: 3,
-        price: 119900,
+        price: 69900,
         image_links: ["https://photos.zillowstatic.com/fp/b5c9f4340bbd1828a825de26bee431be-p_e.jpg"]
     },
     {
@@ -1356,7 +1356,7 @@ const properties = [
         unit: "# D0NKW9",
         bed: 4,
         bath: 3,
-        price: 133199,
+        price: 63199,
         image_links: ["https://photos.zillowstatic.com/fp/c69715b6e0ba5eff3c41c5f8cc84d7f0-p_e.jpg"]
     },
     {
@@ -1368,7 +1368,7 @@ const properties = [
         unit: "# 2JPHPN",
         bed: 4,
         bath: 4,
-        price: 159799,
+        price: 59799,
         image_links: ["https://photos.zillowstatic.com/fp/9905d01a55231a00f124b36b62ec7eed-p_e.jpg"]
     },
     {
@@ -1379,7 +1379,7 @@ const properties = [
         city: "Opelika",
         bed: 3,
         bath: 2,
-        price: 129000,
+        price: 59000,
         image_links: ["https://photos.zillowstatic.com/fp/b83b3f32c7a3887800a813e0b2f856f4-p_e.jpg"]
     },
     {
@@ -1390,7 +1390,7 @@ const properties = [
         city: "Opelika",
         bed: 2,
         bath: 2,
-        price: 189000,
+        price: 89000,
         image_links: ["https://photos.zillowstatic.com/fp/f38aba5b5b100bc5da66fe923ebf4736-p_e.jpg"]
     },
     {
@@ -1402,7 +1402,7 @@ const properties = [
         unit: "# G3BBBN",
         bed: 7,
         bath: 5,
-        price: 124899,
+        price: 74899,
         image_links: ["https://photos.zillowstatic.com/fp/268431facf0ebb4f72ed7543a272382a-p_e.jpg"]
     },
     {
@@ -1414,7 +1414,7 @@ const properties = [
         unit: "# 3J0SQC",
         bed: 4,
         bath: 5,
-        price: 135799,
+        price: 55799,
         image_links: ["https://photos.zillowstatic.com/fp/1f42a32f790552ed887506a10f7757b7-p_e.jpg"]
     },
     {
@@ -1426,7 +1426,7 @@ const properties = [
         unit: "# SLEO98",
         bed: 3,
         bath: 2,
-        price: 139900,
+        price: 69900,
         image_links: ["https://photos.zillowstatic.com/fp/00a659bff640e97a268bdc2b07605173-p_e.jpg"]
     }
 ];
